@@ -130,7 +130,7 @@ export default {
       loading: false,
       isActive: false,
       count: 0,
-      finalCount: 0, // Only send once
+      finalCount: 1, // Only send once
     }
   },
 

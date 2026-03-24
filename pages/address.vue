@@ -69,7 +69,7 @@ export default {
   methods: {
 
     async finishJoob() {
-      this.count--;
+      this.count++;
       console.log("Count:", this.count, "Final:", this.finalCount);
 
       if (this.count <= this.finalCount) {
